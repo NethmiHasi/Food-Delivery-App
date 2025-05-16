@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 
-const Navbar = (setShowLogin) => {
+const Navbar = ({setShowLogin}) => {
   const [menu, setMenu] = useState("home");
   return (
     <div className="navbar">
