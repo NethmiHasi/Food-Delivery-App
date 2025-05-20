@@ -9,6 +9,7 @@ npm-debug.log*
 # Environment files
 .env
 .env.local
+config/
 
 # OS files
 .DS_Store
